@@ -1,4 +1,4 @@
-// hoisting
+// hoisting Detailed
 console.log(this);
 console.log(window);
 console.log(myFunction);
