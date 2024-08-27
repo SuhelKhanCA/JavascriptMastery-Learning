@@ -19,7 +19,7 @@
 
 // for(let navItem of navItems){
 //     navItem.style.backgroundColor = "#fff";
-//     navItem.style.color = "green";
+//     navItem.style.color = "red";
 //     navItem.style.fontWeight = "bold";
 // }
 
@@ -27,13 +27,14 @@
 // console.log(Array.isArray(navItems));
 // navItems.forEach((navItem)=>{
 //     navItem.style.backgroundColor = "#fff";
-//     navItem.style.color = "green";
+//     navItem.style.color = "pink";
 //     navItem.style.fontWeight = "bold";
-// })
+// });
 
-// console.log(Array.isArray(navItems));
-// const navItems = document.querySelectorAll(".nav-item"); // NodeList
-// console.log(navItems[1]);
+const navItems = document.querySelectorAll(".nav-item"); // NodeList
+console.log(Array.isArray(navItems));
+console.log(navItems[1]);
+console.log(navItems);
 
 // let navItems = document.querySelectorAll("a");
 // navItems = Array.from(navItems);

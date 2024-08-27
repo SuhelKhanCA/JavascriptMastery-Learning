@@ -3,4 +3,4 @@
 // overview 
 // how to use 
 // deep study
-// console.dir(document);
+console.dir(document);
